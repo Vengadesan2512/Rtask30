@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    border: rgb(55, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userlist{
+ background: rgb(160, 230, 235);
+ width: 100%;
+
+}
+.card p{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    margin-top: 30px;
+    border-bottom: solid 2px black;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 700;
+    background: rgb(55, 224, 224);
+}
+.heding{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+}
+.heding h1{
+    font-weight: bolder;
+}
+.btn{
+    display: flex;
+    gap: 25px;
+ 
+}
+.btn button{
+    width: 200px;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.form{
+    display: flex;
+    gap: 20px;
+}
+.form input{
+    height: 25px;
+    width: 300px;
+}
